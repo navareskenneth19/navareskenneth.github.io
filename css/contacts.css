@@ -1,0 +1,165 @@
+
+body
+{
+    width: 100%;
+    margin:0;
+}
+
+header 
+{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:  #0B2447;
+    padding: 20px;
+}
+
+.logo-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container :hover 
+{
+    -moz-box-shadow: 0 0 5px #fff;
+    -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 0px 0px 20px #fff;
+
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container2 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container2 :hover 
+{
+    -moz-box-shadow: 0 0 5px #fff;
+    -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 0px 0px 20px #fff;
+}
+
+ul 
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li 
+{
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 40px;
+}
+
+li:hover
+{
+    color:rgb(232, 244, 252);
+    text-shadow: #ffffff 0px 0px 30px;
+}
+
+nav ul a 
+{
+    text-decoration-line: none;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section-1
+{
+    background: url("images/Background.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    width: 100%;
+    height: 450px;
+}
+
+.container01
+{
+    font-size: 50px;
+    margin: -90px 30px;
+    color: aliceblue;
+}
+
+.container02
+{
+    text-align: center;
+    font-size: 26px;
+    color: aliceblue;
+}
+
+.section-2
+{
+    background-color: #354259 ;
+    display: flex;
+    flex-direction: row;
+    width: 100%
+    
+}
+
+.section-2 div 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 25%;
+    height: 500px;
+    margin: 3px 0px;
+}
+
+.section-2 h1
+{ 
+    color: aliceblue;
+    margin: 0px 0px;
+    font-size: 40px;
+}
+
+.section-2 p
+{
+    margin: 20px 0px;
+    font-size: 20px;
+    font-style: oblique;
+    color: rgb(197, 202, 206);
+}
+
+
+.section-2 img
+{
+    -moz-box-shadow: 0 0 5px #fff;
+    -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 0px 0px 15px #fff;
+    border-radius: 80px;
+    opacity: 0.7;
+    width: 150px;
+    margin: 50px 0px;
+}
+
+
